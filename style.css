@@ -140,3 +140,8 @@ footer{
     font-weight: bold;
     
 }
+
+.mover:active{
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}

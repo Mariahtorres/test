@@ -200,3 +200,8 @@ footer{
     font-weight: bold;
     
 }
+
+.mover:active{
+    transform: translate(3px, 3px);
+    box-shadow: none;
+}

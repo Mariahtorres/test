@@ -13,8 +13,8 @@
     <img src="" alt="imagen compu">
     <nav>
         <ul class="lista">
-        <li><a class="linkNav" href="./history.html">HISTORIA</a></li>
-        <li><a class="linkNav" href="./play.html">JUGUEMOS</a></li>
+        <li><a class="linkNav mover" href="./history.html">HISTORIA</a></li>
+        <li><a class="linkNav mover" href="./play.html">JUGUEMOS</a></li>
         </ul>
     </nav>
     </div>
@@ -68,11 +68,11 @@
         </video>
         <div id="barraVideo">
             <div id="botonera">
-                <button class="boton" id="play">Play</button>
-                <button class="boton" id="pausa">pausa</button>
+                <button class="boton mover" onclick="reproducir(event)">Play</button>
+                <button class="boton mover" onclick="pausar(event)">Pausa</button>
             </div>
             <div id="timer">
-            Duración del video 00:00
+            Duración del video 04:41
         </div>
     </section>
 </div>
@@ -88,6 +88,6 @@
     <p>Sitio con fines educativos - Creado por M.Victoria Lopez</p>
 
 </footer>
-<script src="./script.js"></script>  
+<script src="./history.js"></script>  
 </body>
 </html>
