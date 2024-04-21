@@ -14,7 +14,12 @@
     padding: 0 20px;
    
 }
- 
+.compu{
+    width: 88px;
+    height: 70px;
+   margin-left: 50px;
+  
+}
 .lista{
     list-style: none;
     width: 100px;
@@ -141,9 +146,3 @@ footer{
     box-shadow: none;
 }
 
-.compu{
-    width: 88px;
-    height: 70px;
-   margin-left: 50px;
-    
-}
