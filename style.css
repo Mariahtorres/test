@@ -79,13 +79,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
-  
-
-    
-    
-    
-    
-}
+  }
 .imagenTarjeta{
    width: 100%;
    margin-bottom: 30px;
@@ -145,4 +139,11 @@ footer{
 .mover:active{
     transform: translate(4px, 4px);
     box-shadow: none;
+}
+
+.compu{
+    width: 88px;
+    height: 70px;
+   margin-left: 50px;
+    
 }

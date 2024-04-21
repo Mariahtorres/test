@@ -69,6 +69,7 @@ main{
     background-color: #181D31;
     
 }
+
 #tarjetasVacias, #contenedorImgRompe {
     width: 850 px;
     height: 420px;
@@ -107,5 +108,10 @@ main{
     border: solid 2px;
     border-color:  grey #000000 #000000 grey;
     box-shadow: 3px 3px #678983; 
+    align-self: center;
    
+}
+.mover:active{
+    transform: translate(3px, 3px);
+    box-shadow: none;
 }
