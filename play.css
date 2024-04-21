@@ -14,6 +14,12 @@
     padding: 0 20px;
    
 }
+.compu{
+    width: 88px;
+    height: 70px;
+   margin-left: 50px;
+    
+}
  
 .lista{
     list-style: none;
@@ -35,6 +41,10 @@
     box-shadow: 3px 3px #678983;
     font-size:16px;
     font-weight: 300;
+}
+.mover:active{
+    transform: translate(3px, 3px);
+    box-shadow: 0 0 0 transparent;
 }
 #contenedorH1{
     height: 500px;
@@ -111,7 +121,7 @@ main{
     align-self: center;
    
 }
-.mover:active{
+#reinicio:active{
     transform: translate(3px, 3px);
-    box-shadow: none;
+    box-shadow: 0 0 0 transparent;
 }
