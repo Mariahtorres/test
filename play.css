@@ -44,7 +44,7 @@
 }
 .mover:active{
     transform: translate(3px, 3px);
-    box-shadow: 0 0 0 transparent;
+    box-shadow: none;
 }
 #contenedorH1{
     height: 500px;
@@ -123,5 +123,5 @@ main{
 }
 #reinicio:active{
     transform: translate(3px, 3px);
-    box-shadow: 0 0 0 transparent;
+    box-shadow: none;
 }
