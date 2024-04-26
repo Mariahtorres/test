@@ -93,17 +93,21 @@ main{
     
 }
 
-#tarjetasVacias, #contenedorImgRompe {
+#tarjetasVacias {
     width: 850 px;
     height: 420px;
     display: flex;
+    
     justify-content: center;
+    
    
           
 }
 #contenedorImgRompe{
     column-gap: 10px;
     padding-bottom: 15px;
+  
+    
 }
 .tarjetaRompe{
     width: 275px;
@@ -114,11 +118,18 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     
+    
+}
+.tarjetaRompe:hover{
+    background-color: #464646;
 }
 .imagenRompe{
     width: 275px;
     height: 400px;
+    
+    
    
 
 }

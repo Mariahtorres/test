@@ -37,25 +37,25 @@
     <h2 class="tituloVerde">Armemos el rompecabezas y veamos que imagen es...</h2>
     <section class="seccionJuego">
         <div id="tarjetasVacias">
-            <div class="tarjetaRompe">
+            <div class="tarjetaRompe" ondrop="funcionDrop(event)" ondragover="funcionDragover(event)" >
                 <p>Arrastre y suelte la imagen aquí</p>
             </div>
-            <div class="tarjetaRompe">
+            <div class="tarjetaRompe" ondrop="funcionDrop(event)" ondragover="funcionDragover(event)" >
                 <p>Arrastre y suelte la imagen aquí</p>
             </div>
-            <div class="tarjetaRompe">
+            <div class="tarjetaRompe" ondrop="funcionDrop(event)" ondragover="funcionDragover(event)" >
                 <p>Arrastre y suelte la imagen aquí</p>
             </div>
         </div>
         <div id="contenedorImgRompe">
-            <img class="imagenRompe" src="./assets/imagenes/rompe2.png" alt="imagen de rompecabezas">
-            <img class="imagenRompe" src="./assets/imagenes/Rompe1.png" alt="imagen de rompecabezas">
-            <img class="imagenRompe" src="./assets/imagenes/Rompe3.png" alt="imagen de rompecabezas">
+            <img class="imagenRompe" id="pieza1" src="./assets/imagenes/rompe2.png" alt="imagen de rompecabezas" ondragstart="funciondragstart(event)">
+            <img class="imagenRompe" id="pieza2" src="./assets/imagenes/Rompe1.png" alt="imagen de rompecabezas" ondragstart="funciondragstart(event)">
+            <img class="imagenRompe" id="pieza3" src="./assets/imagenes/Rompe3.png" alt="imagen de rompecabezas" ondragstart="funciondragstart(event)">
         </div>
     </section>
 
-    <button id="reinicio" class="mover">Reiniciar</button>
-
+    <button id="reinicio" class="mover" onclick="reinicio()">Reiniciar</button>
+<script src="./play.js"></script>
 </main>
 </body>
    
