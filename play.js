@@ -21,9 +21,7 @@ const funcionDrop=(event)=>{
     for (const dibujo of dibujos) {
         if (dibujo.src == srcImagen){
         dibujo.style.visibility="hidden";
-        
         }
-    
     }
 }
 

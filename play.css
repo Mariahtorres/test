@@ -59,6 +59,7 @@
     transform: translate(3px, 3px);
     box-shadow: none;
 }
+
 #contenedorH1{
     height: 500px;
     background-image: url(./assets/imagenes/codigo.jpg);
