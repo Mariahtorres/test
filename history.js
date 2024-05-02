@@ -1,10 +1,10 @@
 let video= document.querySelector("#videoHistoria");
 
-const reproducir=(event)=>{
+const reproducir=()=>{
     video.play();
 
 }
-const pausar=(event)=>{
+const pausar=()=>{
     video.pause();
 
 }
