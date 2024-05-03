@@ -1,3 +1,5 @@
+
+/* estilo comunes de header, h1*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
@@ -67,11 +69,11 @@
 }
 h1{
     color: #E6DDC4;
-    font-family: "Monserrat", sans-serif;
     font-size: 55px;
     text-shadow:  2px 2px #808080, 6px 6px #000000;
 }
-h2{
+/* estilos de index*/
+.h2Index{
     color: #678983;
     background-color: #181D31;
     font-size: 40px;
@@ -129,6 +131,219 @@ h2{
    
     
 }
+
+/* estilos de history*/
+
+
+#contenedorPrincipio{
+    height: 300px;
+    background-color: #181D31;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.tituloVerde{
+    color: #678983;
+    font-size: 40px;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+    background-color: #181D31;
+    
+    
+}
+
+
+#contenedorPrincipio > p {
+    color: #E6DDC4;
+    font-size: 16px;
+    width: 480px;
+    text-align: left;
+    margin-right: 40px;
+    
+}
+
+#contenedorEnsamble{
+    height: 350px;
+    background-color: #678983;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#contenedorEnsamble > p{
+    width: 530px;
+    color: #E6DDC4;
+    font-size: 16px;
+    
+   
+
+}
+#contenedorEnsamble > h2{
+    color: #181D31;
+    font-size: 40px;
+    text-shadow:  2px 2px #808080, 3px 3px #E6DDC4;
+    background-color: #678983;
+    
+   
+}
+
+#contendorLenguaje{
+    height: 450px;
+    background-color: #181D31;
+    padding-right: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#contendorLenguaje > h2{
+    width: 300px;
+    
+}
+#contendorLenguaje > p{
+    width: 870px;
+    color: #E6DDC4;
+    font-size: 16px;
+    text-align: left;
+    
+
+}
+
+#contenedorVideo{
+    height: 820px;
+    background-color: #181D31;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sectionVideo{
+    width: 900px;
+    background-color: #000000;
+    padding: 3px;
+}
+#videoHistoria{
+    width: 900px;
+}
+#barraVideo{
+    width: 99%;
+    height: 80px ;
+    background-color: #1d1c1c;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin: 3px auto;
+    box-sizing: border-box;
+    
+}
+#botonera{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.boton{
+    background-color:#E6DDC4;
+    width: 75px;
+    height: 35px;
+    border-radius: 8px;
+    border: solid 2px;
+    border-color:  grey #000000 #000000 grey;
+    box-shadow: 3px 3px #678983;
+}
+#timer{
+    color: #E6DDC4;
+
+}
+
+
+
+
+
+/* estilos de play*/
+.mainPlay{
+    height: 950px;
+     background-color: #181D31;
+     padding: 110px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 5px;
+ }
+ .tituloVerde{
+     color: #678983;
+     font-size: 40px;
+     text-shadow: 2px 2px #000000;
+     text-align: center;
+     background-color: #181D31;
+     
+ }
+ 
+ #tarjetasVacias {
+     width: 850 px;
+     height: 420px;
+     display: flex;
+     
+     justify-content: center;
+     
+    
+           
+ }
+ #contenedorImgRompe{
+     column-gap: 10px;
+     padding-bottom: 15px;
+   
+     
+ }
+ .tarjetaRompe{
+     width: 275px;
+     height: 400px;
+     background-color: #808080;
+     color: #E6DDC4;
+     border: #000000 solid 2px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     
+     
+ }
+ .tarjetaRompe:hover{
+     background-color: #464646;
+ }
+ .imagenRompe{
+     width: 275px;
+     height: 400px;
+     
+     
+    
+ 
+ }
+ #reinicio{
+     background-color:#E6DDC4;
+     width: 256px;
+     height: 38px;
+     color: #262626;
+     border-radius: 8px;
+     border: solid 2px;
+     border-color:  grey #000000 #000000 grey;
+     box-shadow: 3px 3px #678983; 
+     align-self: center;
+    
+ }
+ #reinicio:active{
+     transform: translate(3px, 3px);
+     box-shadow: none;
+ }
+ 
+/* estilos de footer y animacion*/
+
 footer{
     height: 180px;
     background-color: #678983;
